@@ -1,47 +1,36 @@
-# RouteGuard AI — Frontend Phase 1
+# RouteGuard AI
 
-A light, professional frontend for **RouteGuard AI – Smart Logistics & Risk-Aware Route Intelligence**.
+RouteGuard AI — Smart Logistics & Risk-Aware Route Intelligence.
 
-## UI scope
+## Project
 
-- Public RouteGuard website
-- Login UI
-- Create Account UI
-- Operations dashboard UI
-- **OPERATIONS WORKSPACE** header and dashboard layout retained
-- Route analysis UI
-- My Routes UI
-- Fleet UI
-- Incident UI
-- Alerts UI
-- Reports UI
-- Profile & Settings UI
-- Responsive Bootstrap 5 layout
-- Leaflet.js + OpenStreetMap base maps
+A professional logistics operations interface for route planning, fleet visibility, incident management, alerts and reporting.
 
-## Intentionally not implemented
+## Technology
 
-- No authentication or authorization logic
-- No login/signup workflow
-- No localStorage or browser sessions
-- No backend API calls
-- No database
-- No real route calculation
-- No real traffic/weather/incident data
-- No AI/ML prediction
-- No fake operational records
-- No popup/toast messages for backend actions
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5
+- Leaflet.js
+- OpenStreetMap
 
-All dashboard panels are empty until backend integration. The buttons and forms are UI elements only.
+## Pages
 
-## Dashboard access for frontend development
+- Home
+- Features
+- How it works
+- Dashboard / Operations Workspace
+- Route Analysis
+- My Routes
+- Fleet
+- Incidents
+- Alerts
+- Reports
+- Profile & Settings
+- Login
+- Create Account
 
-Open `index.html#dashboard` to preview the dashboard directly without creating a fake login/session. The normal public website remains available at `index.html`.
+## Notes
 
-## Run
-
-Open `index.html` in a browser. Internet access is required for the Bootstrap, Google Fonts and Leaflet CDN assets.
-
-## Later backend phase
-
-The frontend can later be connected to Node.js/Express, authentication, MySQL/MongoDB, routing/traffic/weather services and the RouteGuard AI/ML model without redesigning the dashboard UI.
+Operational sections start with empty states so the workspace is ready for real records when the application services are connected.
